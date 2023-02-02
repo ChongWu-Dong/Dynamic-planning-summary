@@ -3,7 +3,7 @@ package dp2
 // 对于二维连续的问题一定要讨论包含i和j的情况
 // 暴力递归
 func findLength(nums1 []int, nums2 []int) int {
-	// 讨论包含i和j的情况
+	// 讨论包含i和j的情况。
 	var dfs func(i int, j int) int
 	dfs = func(i int, j int) int {
 		// 分类讨论

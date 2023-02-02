@@ -2,7 +2,7 @@ package __范围尝试模型
 
 // 将字符串反转形成s2
 // 样本对应模型
-// 然后本题就转换为求s和s2的最长公共子序列问题，最长公共子序列就是最长的回文子序列
+// 然后本题就转换为求s和s2的最长公共子序列问题，最长公共子序列就是最长的回文子序列。
 func longestPalindromeSubseq(s string) int {
 	s2 := reverse(s)
 	dp := make([][]int, len(s))

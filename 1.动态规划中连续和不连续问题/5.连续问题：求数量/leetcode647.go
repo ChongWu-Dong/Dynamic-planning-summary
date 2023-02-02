@@ -1,6 +1,6 @@
 package __连续问题_求数量
 
-// 暴力递归
+// 暴力递归；
 // 回文串的问题，区间法，包含两个变量i和j
 // 讨论所有i和j的情况，一定包含i和一定包含j的所有回文串之和
 func countSubstrings2(s string) int {

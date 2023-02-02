@@ -10,7 +10,7 @@ func lengthOfLIS(nums []int) int {
 	}
 	ans := dp[0]
 	for i := 1; i < len(nums); i++ {
-		// 对于每一个i都要遍历其前面的元素，找到该包含该元素的最长递增子序列
+		// 对于每一个i都要遍历其前面的元素，找到该包含该元素的最长递增子序列。
 		for j := 0; j < i; j++ {
 			if nums[i] > nums[j] {
 				dp[i] = Max(dp[i], 1+dp[j])
