@@ -2,7 +2,7 @@ package dp1
 
 // 一维连续问题，讨论包含结尾的情况
 func findLengthOfLCIS(nums []int) int {
-	// 创建动态规划一维数组
+	// 创建动态规划一维数组，长度为nums的长度
 	dp := make([]int, len(nums))
 	ans := 1
 	for i := 0; i < len(dp); i++ {
