@@ -23,7 +23,7 @@
      - 一定包含i和j
 ![lc516](README_images/tu6.png)
 
-# 2.动态规划中数量的问题
+# 2.动态规划中数量的问题(或最值问题)
 动态规划中求数量的问题，分情况，（1）如果是连续的问题，如lc647求回文串的数量，这时候是要讨论包含边界的情况，然后枚举所有的边界情况。
 （2）如果是可以知道决策情况的问题，比如爬楼梯和青蛙跳台阶，他们的在每一台阶只有两种情况，一种是跳一步，另一种是跳两步，只不过在在跳两步收集结果的时候，
 需要取判断一下一些条件，比如剩余的台阶数量要大于等于2。同理剑指offer46题也类似，只是判断的条件不同。
@@ -41,3 +41,23 @@
          因为两个数字的组合06是不符合条件的，所以要保证在两个数字组合在10和25之间。
       
  ![剑指offer46](README_images/剑指46.png)
+
+# 3.背包问题
+
+1. 01背包问题：对于01背包问题，每次遍历物品的时候只有两种可能，一种是取当前的物品一种是不取当前的物品，取当前的物品的话，
+计算该物品的价值，不取当前物品的话直接遍历下一个物品，然后返回当前物品两种决策行为利润最大值的那一个。base case，遍历完所有
+物品，还有就是背包的容量小于0，背包的容量可能可以等于0，因为有一些问题中物品所占的空间为0。
+
+**01背包问题的变形：** 
+leetcode416分割等和子集：https://leetcode.cn/problems/partition-equal-subset-sum/
+![](.README_images/lc416.png)
+leetcode494目标和：https://leetcode.cn/problems/target-sum/
+![](.README_images/lc494.png)
+leetcode一和零：https://leetcode.cn/problems/ones-and-zeroes/
+![](.README_images/289289e3.png)
+leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-stone-weight-ii/
+![](.README_images/lc1049.png)
+
+
+
+
