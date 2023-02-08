@@ -58,6 +58,7 @@ leetcode一和零：https://leetcode.cn/problems/ones-and-zeroes/
 leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-stone-weight-ii/
 ![](.README_images/lc1049.png)
 
+2. 完全背包问题：完全背包问题和01背包问题的区别在于，完全背包问题的物品可以多次重复的获取。
 
-
-
+**例子leetcode518零钱兑换**：https://leetcode.cn/problems/coin-change-ii/
+![](.README_images/lc518.png)
