@@ -60,5 +60,12 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 
 2. 完全背包问题：完全背包问题和01背包问题的区别在于，完全背包问题的物品可以多次重复的获取。
 
-**例子leetcode518零钱兑换**：https://leetcode.cn/problems/coin-change-ii/
+**例子leetcode518零钱兑换II**：https://leetcode.cn/problems/coin-change-ii/
 ![](.README_images/lc518.png)
+
+**例子leetcode279完全平方数**：https://leetcode.cn/problems/perfect-squares/
+![](.README_images/lc279.png)
+**例子leetcode322零钱兑换**：https://leetcode.cn/problems/coin-change/
+![](.README_images/lc322.png)
+**例子leetcod139单词拆分**：https://leetcode.cn/problems/word-break/
+![](.README_images/lc139.png)
