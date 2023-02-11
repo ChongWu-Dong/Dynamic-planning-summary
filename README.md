@@ -88,3 +88,9 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 
 **本题需要注意的时候**，只能进行**一次**的买卖，所在在持有的状态的时候可以保持持有昨天的，也可以买入，**特别注意**
 买入的时候，由于只是一次的买卖，所以在买之前是没有任何可能存在卖的，所以买入的收益为-prices[i]而不是dp[i-1][1]-prices[i]。
+
+（2）买卖股票的最佳时期II leetcode122：https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/
+
+![](.README_images/lc122.png)
+
+和上一题类似的，但是本题中允许进行多次交易，所以在买入的时候的收益是dp[i-1][1]-prices[i]，前一天不持有股票的最大收减去当前买入股票。
