@@ -94,3 +94,11 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 ![](.README_images/lc122.png)
 
 和上一题类似的，但是本题中允许进行多次交易，所以在买入的时候的收益是dp[i-1][1]-prices[i]，前一天不持有股票的最大收减去当前买入股票。
+
+（3）买卖股票的最佳时期III leetode123:https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/
+![](.README_images/lc123.png)
+
+这里是直接限定了只能进行两次买卖
+在第一次买入的时候，因为再第一次买入的时候没有卖出操作，所以只能是-price[i] 而不能是dp[i-1][1]-price[i]
+其余的操作和上面两题一样
+
