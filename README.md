@@ -102,3 +102,7 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 在第一次买入的时候，因为再第一次买入的时候没有卖出操作，所以只能是-price[i] 而不能是dp[i-1][1]-price[i]
 其余的操作和上面两题一样
 
+（4）买卖股票的最佳时机IV leetcode188：https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/
+![](.README_images/lc188.png)
+
+这个问题和买卖股票的最佳时期III leetode123类似，只不过是这里买卖次数变成了k次。
