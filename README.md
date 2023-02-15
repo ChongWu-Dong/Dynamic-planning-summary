@@ -106,3 +106,15 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 ![](.README_images/lc188.png)
 
 这个问题和买卖股票的最佳时期III leetode123类似，只不过是这里买卖次数变成了k次。
+
+（5）买卖股票含冷冻期 leetcode309：https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/
+![](.README_images/lc309.png)
+
+这个题和前面的三个问题大方向类似：
+1.考虑持有股票的情况，（1）保持前一天的持有状态；（2）当天买入，细分两种情况：已经过了冷冻期（前一天是冷冻期），前一天没有卖出
+2.考虑不持有股票的情况，（1）保持前一天的不持有（2）当天不持有（3）今天是冷冻期
+所以综上，可以分为四个状态
+（1）持有股票
+（2）不持有股票，保持前一天的状态
+（3）当天卖
+（4）冷冻期
