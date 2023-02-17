@@ -118,3 +118,13 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 （2）不持有股票，保持前一天的状态
 （3）当天卖
 （4）冷冻期
+
+4.打家劫舍问题
+
+打家劫舍类问题跟之前分析的动态规划问题中，有一些类似的地方，类似的地方放在于，打家劫舍问题也是决策可能性已知的情况。每次只有两种情况：
+1）当前的房屋偷
+2）当前的房屋不偷
+然后返回（1）和（2）的最大值。
+
+（1）打家劫舍leetcode198：https://leetcode.cn/problems/house-robber/
+![](.README_images/lc198.png)
