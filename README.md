@@ -128,3 +128,12 @@ leetcode1049最后一块石头的重量：https://leetcode.cn/problems/last-ston
 
 （1）打家劫舍leetcode198：https://leetcode.cn/problems/house-robber/
 ![](.README_images/lc198.png)
+
+（2）打家劫舍II：https://leetcode.cn/problems/house-robber-ii/
+这个题中所有的房屋围成一圈，也就是说，我们再遍历到最后一个房屋的时候，要考虑前面的第一个节点有没有偷。这是这个题的难点
+我们可以换个思路去规避在对最后一个节点进行处理的时候的判断
+我们可以选定小偷的出发点，小偷为了让自己的收益最大，那么必然会偷第一个房屋或者第二个房屋。只有两种情况：
+   我们考虑小偷从第一个房屋开始偷的时候的最大利益，从第一个房屋开始偷则遍历的区间不能包含最后的区间
+   从第二间房屋开始偷，这时候遍历的区间可以是最后的一间房屋
+
+![](README_images/lc213.png)
