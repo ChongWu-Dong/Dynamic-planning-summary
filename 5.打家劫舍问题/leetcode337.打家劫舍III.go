@@ -6,6 +6,8 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// 打家劫舍
+// 偷当前的房屋，就要找到下一个可以遍历的房屋
 func robIII(root *TreeNode) int {
 
 	var travel func(node *TreeNode) int
